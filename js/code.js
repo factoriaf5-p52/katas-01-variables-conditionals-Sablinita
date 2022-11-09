@@ -1,7 +1,21 @@
+
+
+
 function evenOrOdd(n) {
-    return "";
+    if (n % 2 == 0){
+        return "even";
+    } 
+    else {
+        return "odd";
+    }
+    
 }
 
 function greeting(name) {
-    return "";
+    const saludo = "Hola, ";
+    return saludo + name + "!";
 }
+
+
+
+console.log(sum(4,5));
